@@ -1,0 +1,25 @@
+name: warsh_erp_mobile
+description: تطبيق Warsh ERP MVP للمشرفين - Flutter
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  path: ^1.8.2
+  image_picker: ^0.8.5+3
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
